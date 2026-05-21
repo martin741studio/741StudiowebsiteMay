@@ -1,0 +1,20 @@
+node_modules/
+tmp/
+.DS_Store
+.env
+
+# Ignore non-website data ("database" folders)
+00_project/
+01_reference/
+02_branding/
+06_environment/
+.agent/
+temp_build_24/
+
+# Ignore the cPanel backup folder
+assets/
+
+# Ignore old scratch files
+pre_modular_index.html
+tmp_index.html
+scratch_diff_html.py
